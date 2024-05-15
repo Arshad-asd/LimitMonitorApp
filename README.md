@@ -51,8 +51,10 @@ python manage.py runserver
 
 - `POST /api/users/register/`: Register a new user.
 - `POST /api/users/login/`: Log in an existing user.
-- `POST /api/admin/users-all/`: List all users exlude admin.
-- `PUT /api/admin/block-ublock/id/`: block & unblock user.
+  
+#### 1. Criteria Management:
+- `POST /api/weather/user-criteria/`:
+- `POST /api/weather/user-criteria/<int:pk>`:
 
 ## API Documentation
 
